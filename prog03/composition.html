@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Principles of Composition</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <header>
@@ -13,7 +14,7 @@
             <iframe src="../navbar.html" style="width: 100%; height: 50px; border: none;"></iframe>
         </nav>
         <article>
-            <header>
+            <header class="main-header">
                 <h2>Principles of Composition</h2>
             </header>
             <section>
@@ -22,7 +23,7 @@
                 </header>
                 <aside>"A composition is always more than the sum of its parts. In other words, 
                     a really good piece of music is more than itself. It's sort of like a prism, 
-                    which you can see from each facet a single totality."<br>Yo-Yo Ma
+                    which you can see from each facet a single totality."<br><br>-Yo-Yo Ma
                 </aside>
                 <p>The principles of composition are the guidelines for organizing and 
                     arranging elements of design within a piece. 
@@ -35,7 +36,10 @@
                 <p>Balance describes the visual weight inside a composition. It is used to
                     create a sense of stability and harmony.
                 </p>
-                <img src="balance.png" alt="Types of balance">
+                <div class="visual">
+                    <img src="balance.png" alt="Types of balance">
+                    <figcaption>Example of types of balance</figcaption>
+                </div>                
                 <h4>Types of Balance:</h4>
                 <ul>
                     <li>Symmetrical: Elements are mirrored around an axis</li>
@@ -56,7 +60,10 @@
                 <header>
                     <h3>Rhythm</h3>
                 </header>
-                <img src="rhythm.png" alt="rhythm">
+                <div class="visual">
+                    <img src="rhythm.png" alt="rhythm">
+                <figcaption>Example of types of rhythm</figcaption>
+                </div>
                 <p>Rhythm uses elements repeatedly in a way that creates motion similar to music. Types of 
                     rhythm include regular rhythm which is consistent, alternating rhythm which alternates
                     between multiple elements, and progressive rhythm which gradually changes elements as they
@@ -76,7 +83,10 @@
                 <header>
                     <h3>Contrast</h3>
                 </header>
-                <img src="contrast.jpg" alt="contrast">
+                <div class="visual">
+                    <img src="contrast.jpg" alt="contrast">
+                    <figcaption>Example of types of contrast</figcaption>
+                </div>
                 <p>Contrast uses differing elements to draw your attention. For example, you can 
                     use contrasting colors to make elements stand out against each other. You can 
                     also use different shapes or forms to create contrast. Textures and patterns
@@ -101,15 +111,21 @@
                 </p>
             </section>
         </article>
-        <p>If you would like to learn more visit this <a href="https://paintinglessonswithmarla.com/122-8-principles-of-composition-in-art/">page</a></p>
-        <nav>
-            <a href="design.html">Elements of Design</a>
-            <a href="perspective.html">Perspective</a>
-        </nav>
-        <footer>
+        <div>
+            <footer class="article-footer">
+                <p>If you would like to learn more visit this <a href="https://paintinglessonswithmarla.com/122-8-principles-of-composition-in-art/">page</a></p>
+                <p>Read my other related pages</p>
+                <nav class="page-nav">
+                    <a href="design.html">Elements of Design</a>
+                    <a href="perspective.html">Perspective</a>
+                </nav>
+            </footer>
+        </div>
+        <footer class="page-footer">
             <p>Aileen Shi</p>
             <address>Clemson, SC</address>
             <p>2024</p>
+            <p><a href="mailto:fakeemail@email.com">Email me</a> (fake)</p>
         </footer>
     </body>
 </html>

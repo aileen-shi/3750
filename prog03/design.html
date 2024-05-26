@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Elements of Design</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <header>
@@ -23,7 +24,10 @@
                 <aside>"Good composition is like a suspension bridge - each line adds strength and takes none away.
                     -Robert Henri"
                 </aside>
-                <img src="elements.jpg">
+                <div class="visual">
+                    <img src="elements.jpg">
+                    <figcaption>Examples of elements of design</figcaption>
+                </div>
                 <p>Elements of design are the components that are used to design visual compositions.
                     They form the building blocks of many projects that span across many creative 
                     fields like web design or painting. Understanding these elements and their interactions
@@ -117,15 +121,21 @@
                 </p>
             </section>
         </article>
-        <p>If you would like to learn more visit the <a href="https://en.wikipedia.org/wiki/Composition_(visual_arts)">wiki page</a></p>
-        <nav>
-            <a href="perspective.html">Perspective</a>
-            <a href="composition.html">Principles of Composition</a>
-        </nav>
-        <footer>
+        <div>
+            <footer class="article-footer">
+                <p>If you would like to learn more visit the <a href="https://en.wikipedia.org/wiki/Composition_(visual_arts)">wiki page</a></p>
+                <p>Read my other related pages</p>
+                <nav class="page-nav">
+                    <a href="perspective.html">Perspective</a>
+                    <a href="composition.html">Principles of Composition</a>
+                </nav>
+            </footer>
+        </div>
+        <footer class="page-footer">
             <p>Aileen Shi</p>
             <address>Clemson, SC</address>
             <p>2024</p>
+            <p><a href="mailto:fakeemail@email.com">Email me</a> (fake)</p>
         </footer>
     </body>
 </html>
